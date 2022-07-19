@@ -4,29 +4,31 @@
 
 ## Experiments
 
-Some experiment result. MAE on test set. Some result will be posted soon, I'm sorting them out.
+MAE on test set. Some result will be posted soon, I'm sorting them out.
 
-|           NN Architecture            | Model I | Model II | Model III | Epoch |
-| :----------------------------------: | :-----: | :------: | :-------: | ----- |
-|  ResNet34 (pretrained on ImageNet)   | 0.2849  |  0.2162  |  0.1332   | 300   |
-|               Pure VIT               |         |          |           |       |
-|                CNN-T                 |         |          |  0.1459   | 300   |
-| MobileNet V2 (pretrained on ImageNet |         |          |  0.1568   | 300   |
-|                 CVT                  |         |          |           |       |
+|           NN Architecture            | Model I |  Model II   |  Model III   | Epoch |
+| :----------------------------------: | :-----: | :---------: | :----------: | ----- |
+|  ResNet34 (pretrained on ImageNet)   | 0.2849  |   0.2162    |    0.1332    | 300   |
+|               Pure VIT               |         | 0.2741(8*8) | 0.2175 (8*8) | 300   |
+|                CNN-T                 |         |             |    0.1459    | 300   |
+| MobileNet V2 (pretrained on ImageNet |         |             |    0.1568    | 300   |
+|                 CVT                  |         |             |              |       |
 
 **Scatter plot on test set with ResNet34**
 
-**Model I**
+| Arch   |                   Model I                    |                   Model II                    |                   Model IIII                   |
+| ------ | :------------------------------------------: | :-------------------------------------------: | :--------------------------------------------: |
+| ResNet | <img src="./imgs/model-I-resnet34-300.png"/> | <img src="./imgs/model-II-resnet34-300.png"/> | <img src="./imgs/model-III-resnet34-300.png"/> |
+| Vit    |                                              |                                               |                                                |
+|        |                                              |                                               |                                                |
 
-<img src="./imgs/model-I-resnet34-300.png" width=60%/>
+**Model I**
 
 **Model II**
 
-<img src="./imgs/model-II-resnet34-300.png" width=60%/>
-
 **Model III**
 
-<img src="./imgs/model-III-resnet34-300.png" width=60%/>
+
 
 ## Citation
 
