@@ -4,6 +4,13 @@
 
 ## Experiments
 
+Hyper-parameters:
+
+```
+batch_size=128
+lr=3e-3
+```
+
 MAE on test set. Some result will be posted soon, I'm sorting them out.
 
 |            NN Architecture            |    Model I     |  Model II   |  Model III   | Epoch |
